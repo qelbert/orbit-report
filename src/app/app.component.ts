@@ -33,11 +33,11 @@ export class AppComponent {
 
           // TODO: create a Satellite object using new Satellite(fetchedSatellites[i].name, fetchedSatellites[i].type, fetchedSatellites[i].launchDate, fetchedSatellites[i].orbitType, fetchedSatellites[i].operational);
           
-            let satelliteObj = new Satellite (select.name, select.type, select.launchDate, select.orbyType, select.operational);
+            let satellite = new Satellite (select.name, select.type, select.launchDate, select.orbitType, select.operational);
 
           // TODO: add the new Satellite object to sourceList using: this.sourceList.push(satellite);
-          
-            this.sourceList.push(satelliteObj);
+
+            this.sourceList.push(satellite);
             
           }
           // index = (index + 1) % data.length
