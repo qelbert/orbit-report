@@ -39,14 +39,7 @@ export class AppComponent {
 
             this.sourceList.push(satellite);
             
-          }
-          // index = (index + 1) % data.length
-
-
-  
-          
-          
-          
+          }         
  
        }.bind(this));
     }.bind(this));
