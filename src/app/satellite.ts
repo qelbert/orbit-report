@@ -16,5 +16,16 @@ launchDate: string;
     shouldShowWarning (): boolean {
         return this.type.toLowerCase() === 'space debris';
     }
+
+    count(currentCount = 0) : number {
+        return currentCount += 1;
+      }
+
+    // count(countType: string) : number {
+    //     if (this.type.lowercase = countType) {
+    //         count
+
+    //     }
+    //   }
 }
 
