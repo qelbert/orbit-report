@@ -4,6 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![Orbit Report Project Demo](orbit_report_gif2.gif)
 
+## Purpose
+Create a searchable, sortable table of satellites.
+
+## Features:
+<ul>
+<li>Satellites: Each row in the table contains data on one satellite.</li>
+<li>Search form: Filters the results based on matches to the entered text. Pressing enter or clicking the button triggers the search.</li>
+<li>Sortable columns: The Name and Type column headers can be clicked, which will sort the table using that property.</li>
+<li>Counts: Displays the total number of satellites in the table, as well as the count for each type of satellite.</li>
+</ul>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
